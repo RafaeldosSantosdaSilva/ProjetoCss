@@ -1,0 +1,56 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+#formas_de_pagamento {
+    font-family: Arial, Helvetica, sans-serif;
+    color: red;
+}
+
+.menu{
+    background-color: #ffa500;
+}
+
+.menu a{
+    color: white;
+    text-decoration: none;
+    display: inline-block; width: 24.5%; padding: 10px 0px 10px;
+}
+
+.contato{
+    border:2px groove #ffa500;
+    margin: 10px;
+    padding: 5px;
+}
+
+#rodape{
+    text-align: center;
+}
+
+.preco{
+    color: red;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 10px;
+}
+
+.box_produto {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 1px;
+    font-size: 15px;
+    text-align: center;
+  }
+.lojas{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 10px
+}
+.box-loja{
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid #ffa500;
+    padding: 1px;
+    font-size: 15px;
+    text-align: center;
+}
